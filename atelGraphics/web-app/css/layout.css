@@ -1,0 +1,101 @@
+/* Makeshift CSS Reset */  
+{   margin: 0;  
+    padding: 0;  
+}  
+  
+/* Tell the browser to render HTML 5 elements as block */  
+header, footer, aside, nav, article {  
+    display: block;  
+}
+
+figure{
+	margin: 0 auto;
+	padding: 0;	
+}
+
+body {  
+    margin: 0 auto;  
+    width: 940px;  
+    font: 13px/22px Helvetica, Arial, sans-serif;  
+}
+
+h2 {  
+    font-size: 28px;  
+    line-height: 44px;  
+    padding: 11px 0;  
+}  
+  
+h3 {  
+    font-size: 18px;  
+    line-height: 22px;  
+    padding: 5px 0;  
+}  
+  
+p {  
+    padding-bottom: 22px;  
+}  
+
+img.logo {
+	width: 940px;
+	height: 100px;
+}
+
+footer{
+	text-align: center;
+}
+
+/*Navigation*/
+
+nav { 
+	position: absolute;  
+    left: 460px;
+    top:60px;  
+    width: 100%;   
+}  
+
+nav ul {  
+    margin: 0 auto;  
+    width: 940px;  
+    list-style: none;  
+} 
+   
+nav ul li {  
+    float: left;
+    margin-left: 10px;  
+}
+
+nav.userMenu {
+	top:0px;
+    left: 760px;
+}
+
+nav.userMenu ul li {  
+    margin-left: 4px;  
+}
+
+nav.mainMenu ul li a {  
+    display: block;  
+    width: 105px;  
+    font-size: 18px;  
+    line-height: 44px;  
+    text-align: center;  
+    text-decoration: none;  
+    color: #777;  
+}  
+
+nav.userMenu ul li a {  
+    display: block;  
+    font-size: 12px;  
+    line-height: 44px;  
+    text-align: center;  
+    text-decoration: none;  
+    color: navy;  
+}  
+
+ nav.mainMenu ul li a:hover {  
+     color: black;  
+ } 
+ 
+ nav.userMenu ul li a:hover {  
+     color: white;  
+ } 
