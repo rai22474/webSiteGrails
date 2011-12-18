@@ -2,7 +2,7 @@
 <%@ page import="com.atelgraphics.domain.security.Role" %>
 <g:applyLayout name="adminLayout"> 	     
 	<article>
-	     <h1><g:message code="role.edit" default="Edit User" /></h1>	  
+	     <h1><g:message code="role.edit" default="Edit Role" /></h1>	  
 	     <g:applyLayout name="errorsLayout"/>
 	     
 	     <g:form method="post" action="update">

@@ -2,9 +2,9 @@
 	<section>
 		<nav class="mainMenu">
 	      	<ul>
-				<li><a href="${createLink(absolute:true,uri:'/index.gsp')}"><g:message code="atelGraphics.home"/></a></li>
-				<li><a href="${createLink(absolute:true,uri:'/users/products.gsp')}"><g:message code="atelGraphics.products"/></a></li>
-				<li><a href="${createLink(absolute:true,uri:'/users/forum.gsp')}"><g:message code="atelGraphics.forum"/></a></li>
+	     		<li><g:link uri="/home"><g:message code="atelGraphics.home"/></g:link></li>
+				<li><g:link uri="/products"><g:message code="atelGraphics.products"/></g:link></li>
+				<li><g:link uri="/forum"><g:message code="atelGraphics.forum"/></g:link></li>
 				<li><g:link controller="consults"><g:message code="atelGraphics.contact"/></g:link></li>
 			</ul>
      	</nav>	

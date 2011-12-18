@@ -16,7 +16,7 @@
 	        	<ul>
 					<li><g:link controller="login"><g:message code="atelGraphics.login"/></g:link></li>
 					<li><g:link controller="login"><g:message code="atelGraphics.register"/></g:link></li>
-					<li><a href="${createLink(uri:'/admin/admin.gsp')}"><g:message code="atelGraphics.admin"/></a></li>
+					<li><g:link uri="/admin"><g:message code="atelGraphics.admin"/></g:link></li>
 				</ul>
         	</nav>        	
   		</header>  		
