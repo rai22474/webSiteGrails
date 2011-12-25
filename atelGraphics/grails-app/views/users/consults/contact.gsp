@@ -30,7 +30,7 @@
 			<div class="property">
             	<label for="name"><g:message code="contact.name.label" default="Name" /></label>
                 <div class='value ${hasErrors(bean:consult,field:'name','errors')}'>
-   					<input required="required" type="text" name="name"  value="${fieldValue(bean:consult,field:'name')}"/>
+   					<input required="required" type="text" name="name"  value="${fieldValue(bean:consult,field:'name')}" />
 				</div>
             </div>     
             <div class="property">

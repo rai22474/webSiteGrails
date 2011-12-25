@@ -49,7 +49,7 @@
 			<div class="property">
             	<label for="name"><g:message code="contact.name.label" default="Name" /></label>
                 <div class='value ${hasErrors(bean:consult,field:'name','errors')}'>
-   					<input required="required" type="text" name="name"  value="${fieldValue(bean:consult,field:'name')}"/>
+   					<input required="required" type="text" name="name" placeholder="my name" value="${fieldValue(bean:consult,field:'name')}"/>
 				</div>
             </div>
             <div class="property">
@@ -73,7 +73,7 @@
             <div class="property">
             	<label for="email"><g:message code="contact.email.label" default="Email" /></label>
                 <div class='value ${hasErrors(bean:consult,field:'email','errors')}'>
-   					<input required="required" type="email" name="email" value="${fieldValue(bean:consult,field:'email')}"/>
+   					<input required="required" type="email" name="email" placeholder="myMail@email.com" value="${fieldValue(bean:consult,field:'email')}"/>
 				</div>
             </div>
             <div class="property">

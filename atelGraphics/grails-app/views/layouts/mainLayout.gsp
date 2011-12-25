@@ -15,13 +15,30 @@
 			<nav class="userMenu">
 	        	<ul>
 					<li><g:link controller="login"><g:message code="atelGraphics.login"/></g:link></li>
-					<li><g:link controller="login"><g:message code="atelGraphics.register"/></g:link></li>
-					<li><g:link uri="/admin"><g:message code="atelGraphics.admin"/></g:link></li>
 				</ul>
         	</nav>        	
   		</header>  		
-  		<g:layoutBody/>        
+  		<g:layoutBody/> 
   		<footer> 
+  			<nav>
+	        	<ul>
+					<li><g:link controller="consults"><g:message code="atelGraphics.contact"/></g:link></li>
+					<li><g:link uri="/aboutUs">Sobre nosotros</g:link></li>				
+				</ul>
+        	</nav>
+        	<nav>
+	        	<ul>
+					<li><g:link controller="consults">Siguemos en twitter</g:link></li>
+					<li><g:link controller="consults">Facebook</g:link></li>				
+				</ul>
+        	</nav>
+        	<nav>
+	        	<ul>
+					<li><g:link uri="/admin"><g:message code="atelGraphics.admin"/></g:link></li>
+				</ul>
+        	</nav>     	      	
+  		</footer>       
+  		<footer class="copyright"> 
   			 <g:message code="atelGraphics.allRightsReserved"/>				
   		</footer>
     </body>

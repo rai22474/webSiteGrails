@@ -15,7 +15,8 @@ figure{
 
 body {  
     margin: 0 auto;  
-    width: 940px;  
+    width: 940px; 
+    position:relative; 
     font: 13px/22px Helvetica, Arial, sans-serif;  
 }
 
@@ -46,31 +47,23 @@ footer{
 
 /*Navigation*/
 
-nav { 
+/**
+* Main menu
+*/
+nav.mainMenu { 
 	position: absolute;  
-    left: 460px;
+    left: 360px;
     top:60px;  
-    width: 100%;   
 }  
 
-nav ul {  
+nav.mainMenu ul {  
     margin: 0 auto;  
-    width: 940px;  
     list-style: none;  
 } 
    
-nav ul li {  
+nav.mainMenu ul li {  
     float: left;
     margin-left: 10px;  
-}
-
-nav.userMenu {
-	top:0px;
-    left: 760px;
-}
-
-nav.userMenu ul li {  
-    margin-left: 4px;  
 }
 
 nav.mainMenu ul li a {  
@@ -81,21 +74,79 @@ nav.mainMenu ul li a {
     text-align: center;  
     text-decoration: none;  
     color: #777;  
-}  
+}
+
+nav.mainMenu ul li a:hover {  
+     color: black;  
+}
+
+/**
+*	User menu
+*/
+
+nav.userMenu {
+	position: absolute;
+	top:0px;
+	right:20px;
+}
+
+nav.userMenu ul {  
+    list-style: none;  
+}
 
 nav.userMenu ul li a {  
     display: block;  
     font-size: 12px;  
-    line-height: 44px;  
-    text-align: center;  
     text-decoration: none;  
     color: navy;  
-}  
+}
 
- nav.mainMenu ul li a:hover {  
-     color: black;  
- } 
- 
- nav.userMenu ul li a:hover {  
-     color: white;  
- } 
+/**
+*	Footer
+*/
+
+footer{
+	clear: both;		
+}
+
+footer nav{
+	width: 312px;
+	height:100px;
+	text-align: left;
+	float: left;
+	border-left: 1px solid gray;
+}
+
+footer nav{
+	background-color: #331B7B;
+}
+
+footer nav ul{
+	margin: 0 auto;  
+	list-style: none;
+	margin-top: 10px;
+}
+
+footer nav ul li a {  
+    display: block;  
+    font-size: 18px;  
+    text-decoration: none;
+    color: gray;  
+}
+
+footer nav ul li a:hover {  
+     color: orange;  
+}
+
+
+footer.copyright{
+	margin-top: 10px;
+	background-color: #6A4FBC;
+	color: white;
+}
+
+figure.underConstruction img{
+	margin-left: 200px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+}

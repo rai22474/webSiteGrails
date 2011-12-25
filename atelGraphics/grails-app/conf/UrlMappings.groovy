@@ -11,8 +11,10 @@ class UrlMappings {
 		"/"(view:"/index")
 		"500"(view:'/error')
 		"/products"(view:"/users/products")
-		"/forum"(view:"/users/forum")
+		"/support"(view:"/users/support")
 		"/home"(view:"/index")
 		"/admin"(view:"/admin/admin")
+		"/downloads"(view:"/users/downloads")
+		"/aboutUs"(view:"/users/aboutUs")
 	}
 }
