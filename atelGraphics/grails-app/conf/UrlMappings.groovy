@@ -16,5 +16,7 @@ class UrlMappings {
 		"/admin"(view:"/admin/admin")
 		"/downloads"(view:"/users/downloads")
 		"/aboutUs"(view:"/users/aboutUs")
+		"/twitter"(view:"/users/underConstruction")
+		"/facebook"(view:"/users/underConstruction")
 	}
 }

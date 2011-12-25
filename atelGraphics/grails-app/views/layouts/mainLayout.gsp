@@ -2,7 +2,7 @@
 	<html>
     <head>
         <title>AtelGraphics Home</title>
-        <link rel="shortcut icon" href="${resource(dir:'images',file:'atelGraphicsIcono.gif')}" type="image/x-icon" />
+        <link rel="shortcut icon" href="${resource(dir:'images',file:'atelGraphicsIcono.jpg')}" type="image/x-icon" />
         <link rel="stylesheet" href="${resource(dir:'css',file:'main.css')}" />
        
         <g:layoutHead/>
@@ -28,8 +28,8 @@
         	</nav>
         	<nav>
 	        	<ul>
-					<li><g:link controller="consults">Siguemos en twitter</g:link></li>
-					<li><g:link controller="consults">Facebook</g:link></li>				
+					<li><g:link uri="/twitter">Siguemos en twitter</g:link></li>
+					<li><g:link uri="/facebook">Facebook</g:link></li>				
 				</ul>
         	</nav>
         	<nav>
