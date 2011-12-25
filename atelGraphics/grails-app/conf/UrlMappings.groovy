@@ -18,5 +18,7 @@ class UrlMappings {
 		"/aboutUs"(view:"/users/aboutUs")
 		"/twitter"(view:"/users/underConstruction")
 		"/facebook"(view:"/users/underConstruction")
+		"/forgotPassword"(view:"/users/underConstruction")
+		"/forgotUsername"(view:"/users/underConstruction")
 	}
 }

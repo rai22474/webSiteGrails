@@ -1,5 +1,5 @@
 <g:applyLayout name="userLayout"> 
-	<article>
+	<article class="login">
 		<header>
 			<h1><g:message code="atelGraphics.login"/></h1>
 		</header>	
@@ -32,10 +32,10 @@
              	<span class="button"><g:submitButton name="login" class="login" value="${message(code: 'login.label', default: 'Login')}" /></span>
              </div>            
 		</g:form>			
-		<g:link>forgot your password</g:link>
-		<g:link>forgot your username</g:link>
+		<g:link uri="/forgotPassword">forgot your password</g:link>
+		<g:link uri="/forgotUsername">forgot your username</g:link>
 	</article>
-	<article>
+	<article class="register">
 		<header>
 			<h1><g:message code="atelGraphics.register"/></h1>
 		</header>
